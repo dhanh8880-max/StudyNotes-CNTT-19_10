@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyNotes - Chia sẻ tài liệu học tập</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg">
+    <div class="container">
+        <a class="navbar-brand" href="#">📚 StudyNotes</a>
+        <div class="nav-links">
+            <a href="#documents">Tài liệu</a>
+            <a href="#subjects">Môn học</a>
+            <a href="login.html" id="nav-login">Đăng nhập</a>
+            <a href="#footer">Liên hệ</a>
+        </div>
+    </div>
+</nav>
+
+<header class="hero-section">
+    <div class="container hero-grid">
+        <div class="hero-content">
+            <span class="hero-badge">Ôn thi đại học 2026</span>
+            <h1>Tài liệu ôn thi đại học cho tất cả các môn</h1>
+            <p>Đề thi thử, bài giảng, công thức, mẹo học tập và tài liệu từ lớp 10 đến lớp 12 cho Toán, Văn, Anh, Lý, Hóa, Sinh, Sử, Địa, GDCD và các khối xét tuyển.</p>
+            <div class="hero-actions">
+                <a href="#documents" class="btn btn-primary btn-lg">Xem tài liệu</a>
+                <a href="#subjects" class="btn btn-outline-light btn-lg">Chọn môn</a>
+                <a href="login.html" class="btn btn-outline-light btn-lg" id="hero-login">Đăng nhập</a>
+            </div>
+            <ul class="hero-highlights">
+                <li>📘 Đề thi thử THPT</li>
+                <li>🧠 Ôn thi đại học</li>
+                <li>🎯 Tài liệu theo từng môn</li>
+            </ul>
+        </div>
+
+        <div class="hero-card">
+            <div class="hero-card-inner">
+                <img src="img/toan.jpg" alt="Tài liệu ôn thi" class="hero-illustration">
+                <h3>Kho học liệu tuyển sinh</h3>
+                <p>Hệ thống tài liệu phong phú cho học sinh chuẩn bị cho tốt nghiệp THPT và xét tuyển đại học.</p>
+                <div class="hero-stats">
+                    <div>
+                        <strong>10+</strong>
+                        <span>Môn học</span>
+                    </div>
+                    <div>
+                        <strong>4+</strong>
+                        <span>Khối xét tuyển</span>
+                    </div>
+                    <div>
+                        <strong>24/7</strong>
+                        <span>Miễn phí</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="container mt-3">
+    <div id="auth-status" class="auth-status">Bạn đang truy cập như khách vãng lai. Đăng nhập để xem tài liệu và sử dụng đầy đủ tính năng.</div>
+</div>
+
+<main>
+    <section class="subjects-section">
+        <div class="container">
+            <div class="section-heading">
+                <div>
+                    <span class="section-label">🎓 Chuyên mục ôn thi</span>
+                    <h2>Chọn môn học phù hợp với mục tiêu của bạn</h2>
+                </div>
+                <p>Từ nền tảng đến nâng cao, các tài liệu được sắp xếp theo môn và mức độ ôn luyện.</p>
+            </div>
+            <div class="subject-grid">
+                <a class="subject-card" href="#documents"><img src="img/toan.jpg" alt="Toán"><h3>Toán</h3><p>Đại số, hình học, đề thi thử và bài tập nâng cao.</p></a>
+                <a class="subject-card" href="#documents"><img src="img/van.jpg" alt="Ngữ Văn"><h3>Ngữ Văn</h3><p>Văn học, nghị luận, làm văn và đề thi thử.</p></a>
+                <a class="subject-card" href="#documents"><img src="img/tienganh.jpg" alt="Tiếng Anh"><h3>Tiếng Anh</h3><p>Ngữ pháp, từ vựng, đọc hiểu và đề luyện thi.</p></a>
+                <a class="subject-card" href="#documents"><img src="img/vatly.jpg" alt="Vật Lý"><h3>Vật Lý</h3><p>Công thức, lý thuyết, bài tập và đề thi.</p></a>
+                <a class="subject-card" href="#documents"><img src="img/hoahoc.jpg" alt="Hóa Học"><h3>Hóa Học</h3><p>Phản ứng, hóa học hữu cơ và bài tập vận dụng.</p></a>
+                <a class="subject-card" href="#documents"><img src="img/sinhhoc.jpg" alt="Sinh Học"><h3>Sinh Học</h3><p>Di truyền, sinh thái, hệ thống bài học trọng tâm.</p></a>
+                <a class="subject-card" href="#documents"><img src="img/lichsu.jpg" alt="Lịch Sử"><h3>Lịch Sử</h3><p>Kiến thức lịch sử, giai đoạn và đề ôn tập.</p></a>
+                <a class="subject-card" href="#documents"><img src="img/dialy.jpg" alt="Địa Lý"><h3>Địa Lý</h3><p>Bản đồ, địa lý tự nhiên và kinh tế - xã hội.</p></a>
+                <a class="subject-card" href="#documents"><img src="img/gdcd.jpg" alt="GDCD"><h3>GDCD</h3><p>Kiến thức pháp luật, đạo đức và bài tập.</p></a>
+                <a class="subject-card" href="#documents"><img src="img/dgnl.jpg" alt="ĐGNL"><h3>ĐGNL</h3><p>Đánh giá năng lực, tư duy logic và định lượng.</p></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="search-section" id="subjects">
+        <div class="container">
+            <div class="search-box">
+                <div class="search-input-group">
+                    <input type="text" id="search" class="form-control" placeholder="Tìm kiếm tài liệu ôn thi...">
+                </div>
+                <div class="filter-group">
+                    <select id="filter" class="form-select">
+                        <option value="">Tất cả môn học</option>
+                    </select>
+                </div>
+            </div>
+            <div class="subject-pills">
+                <button class="chip active" data-keyword="">Tất cả</button>
+                <button class="chip" data-keyword="toán">Toán</button>
+                <button class="chip" data-keyword="văn">Ngữ Văn</button>
+                <button class="chip" data-keyword="anh">Tiếng Anh</button>
+                <button class="chip" data-keyword="lý">Vật Lý</button>
+                <button class="chip" data-keyword="hóa">Hóa Học</button>
+                <button class="chip" data-keyword="sinh">Sinh Học</button>
+                <button class="chip" data-keyword="sử">Lịch Sử</button>
+                <button class="chip" data-keyword="địa">Địa Lý</button>
+                <button class="chip" data-keyword="gdcd">GDCD</button>
+                <button class="chip" data-keyword="đánh giá năng lực">ĐGNL</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="documents-section" id="documents">
+        <div class="container">
+            <div class="section-heading">
+                <div>
+                    <span class="section-label">📚 Tài liệu mới</span>
+                    <h2>Danh sách tài liệu ôn thi đại học</h2>
+                </div>
+                <p>Tra cứu nhanh các tài liệu phù hợp cho từng môn học và từng mục tiêu thi cử.</p>
+            </div>
+            <div class="row" id="menu"></div>
+        </div>
+    </section>
+</main>
+
+<footer id="footer">
+    <div class="container footer-content">
+        <div>
+            <h3>StudyNotes</h3>
+            <p>Chia sẻ tri thức, nâng tầm học tập.</p>
+        </div>
+        <div>
+            <p>📧 contact@studynotes.vn</p>
+            <p>📍 Hà Nội, Việt Nam</p>
+        </div>
+    </div>
+</footer>
+
+<script src="scripts/main.js"></script>
+<script>
+    const AUTH_KEY = 'studynotes_user';
+    const authStatus = document.getElementById('auth-status');
+    const navLogin = document.getElementById('nav-login');
+    const heroLogin = document.getElementById('hero-login');
+
+    const user = JSON.parse(localStorage.getItem(AUTH_KEY) || 'null');
+
+    if (user && user.role === 'admin') {
+        authStatus.innerHTML = '<strong>Admin:</strong> bạn có thể quản lý tài liệu.';
+        if (navLogin) {
+            navLogin.textContent = 'Quản trị';
+            navLogin.href = 'admin/index.html';
+        }
+        if (heroLogin) {
+            heroLogin.textContent = 'Quản trị';
+            heroLogin.href = 'admin/index.html';
+        }
+    } else if (user && user.role === 'customer') {
+        authStatus.innerHTML = '<strong>Khách hàng:</strong> bạn chỉ được xem và chọn tài liệu, không được quản lý.';
+        if (navLogin) {
+            navLogin.textContent = 'Đăng xuất';
+            navLogin.href = '#';
+            navLogin.addEventListener('click', function (event) {
+                event.preventDefault();
+                localStorage.removeItem(AUTH_KEY);
+                window.location.href = 'login.html';
+            });
+        }
+        if (heroLogin) {
+            heroLogin.textContent = 'Đăng xuất';
+            heroLogin.href = '#';
+            heroLogin.addEventListener('click', function (event) {
+                event.preventDefault();
+                localStorage.removeItem(AUTH_KEY);
+                window.location.href = 'login.html';
+            });
+        }
+    }
+</script>
+</body>
+</html>
